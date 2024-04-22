@@ -26,14 +26,19 @@ function App() {
       "punchline": "You put a little boogie on it."
     },
     {
-      "type": "general",
-      "setup": "What's Forrest Gump's password?",
-      "punchline": "1Forrest1"
+      "type": "knock-knock",
+      "setup": "Knock knock. \n Who's there? \n Little old lady. \n Little old lady who?",
+      "punchline": "I didn't know you could yodel!"
     },
     {
-      "type": "general",
-      "setup": "What do you call a belt made out of watches?",
-      "punchline": "A waist of time."
+      "type": "programming",
+      "setup": "What's the best thing about a Boolean?",
+      "punchline": "Even if you're wrong, you're only off by a bit."
+    },
+    {
+      "type": "dad",
+      "setup": "Why do fathers take an extra pair of socks when they go golfing?",
+      "punchline": "In case they get a hole in one!"
     },
     {
       "type": "general",
