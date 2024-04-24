@@ -4,7 +4,7 @@ import { Form, FormDataStructure } from './components/Form';
 import { Joke } from './components/Joke';
 
 import { ArrowUturnLeftIcon } from '@heroicons/react/24/outline';
-//import sourceOfJokes from './source/jokes-data.js';
+import { sourceOfJokes } from './source/jokes-data';
 
 export interface DataJoke {
   type: string;
@@ -13,38 +13,6 @@ export interface DataJoke {
 };
 
 function App() {
-//  const sourceOfJokes = require('./source/jokes-data.js');
-
-  const sourceOfJokes: DataJoke[] = [
-    { "type": "general",
-      "setup": "What did the fish say when it hit the wall?",
-      "punchline": "Dam."
-    },
-    {
-      "type": "general",
-      "setup": "How do you make a tissue dance?",
-      "punchline": "You put a little boogie on it."
-    },
-    {
-      "type": "knock-knock",
-      "setup": "Knock knock. \n Who's there? \n Little old lady. \n Little old lady who?",
-      "punchline": "I didn't know you could yodel!"
-    },
-    {
-      "type": "programming",
-      "setup": "What's the best thing about a Boolean?",
-      "punchline": "Even if you're wrong, you're only off by a bit."
-    },
-    {
-      "type": "dad",
-      "setup": "Why do fathers take an extra pair of socks when they go golfing?",
-      "punchline": "In case they get a hole in one!"
-    },
-    {
-      "type": "general",
-      "setup": "Why can't bicycles stand on their own?",
-      "punchline": "They are two tired"
-    }];
 
   const [userName, setUserName] = useState('');
   const [jokesData, setJokesData] = useState<DataJoke[]>([]);

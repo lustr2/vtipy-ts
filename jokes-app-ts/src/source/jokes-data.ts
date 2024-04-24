@@ -1,5 +1,6 @@
+import { DataJoke } from "../App";
 
-export const sourceOfJokes = [
+export const sourceOfJokes: DataJoke[]  = [
   {
     "type": "general",
     "setup": "What did the fish say when it hit the wall?",
