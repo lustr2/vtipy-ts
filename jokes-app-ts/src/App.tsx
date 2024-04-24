@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import './App.scss'
 import { Form, FormDataStructure } from './components/Form';
 import { Joke } from './components/Joke';
 

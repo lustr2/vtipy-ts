@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { HandThumbUpIcon, HandThumbDownIcon } from '@heroicons/react/24/outline';
-import './joke.css';
+import './joke.scss';
 import React from 'react';
 
 interface JokesProps {
@@ -9,7 +9,7 @@ interface JokesProps {
   showRating: boolean;
 };
 
-export const Joke: React.FC<JokesProps> = ({ setup, punchline, showRating = false }) => (
+export const Joke: React.FC<JokesProps> = ( {setup, punchline, showRating} ) => (
   <div className="joke">
     <div className="joke__body">
       <p className="joke__body__setup">{setup}</p>
